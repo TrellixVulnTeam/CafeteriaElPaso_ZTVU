@@ -1,0 +1,98 @@
+/* titulos */
+//titulos
+h1 {
+  font-family: "Dancing Script", cursive;
+  font-weight: 700;
+  font-size: 100px;
+  text-align: center;
+  color: #633d3d;
+
+  filter: brightness(53%) drop-shadow(-27px 55px 5px #363636);
+  -webkit-filter: brightness(53%) drop-shadow(-27px 55px 5px #363636);
+  -moz-filter: brightness(53%) drop-shadow(-27px 55px 5px #000000);
+}
+
+.navbarTitulo {
+  transform: rotate(3deg);
+  transform: scale(1.5);
+  animation-name: animacion;
+  animation-duration: 10s;
+}
+
+@keyframes animacion {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+h2 {
+  font-family: "Dancing Script", cursive;
+  font-weight: 600;
+  font-size: 80px;
+  text-align: center;
+  color: #1a1818;
+}
+
+.navarSubtitulo {
+  animation-name: animate__swing;
+  animation-duration: 10s;
+}
+
+@keyframes animacion__swing {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+h5 {
+  text-decoration-color: azure;
+  text-align: end;
+}
+
+.segundoparrafo {
+  text-align: left;
+  padding: 10px;
+  font-size: 50px;
+
+  background-color: #aa7d6b;
+}
+
+h3 {
+  text-decoration: underline;
+}
+
+.tih4 {
+  font-family: "Dancing Script", cursive;
+  margin: auto;
+  padding: auto;
+  text-decoration: underline;
+  font-weight: 600;
+  font-size: 30px;
+  color: #aa7d6b;
+}
+@for $i from 1 through 2 {
+  .parrafos-#{$i} {
+    width: 5em * $i;
+  }
+}
+.parrafo-2 {
+  color: white;
+  background-color: rgb(167, 107, 107);
+  margin: 10px;
+  width: 500px;
+  height: 100px;
+  display: inline-block;
+}
+
+.parrafo-1 {
+  @extend .parrafo-2;
+  border: solid 3px rgb(255, 252, 252);
+  padding: 2px;
+  background-color: rgb(96, 99, 99);
+}
