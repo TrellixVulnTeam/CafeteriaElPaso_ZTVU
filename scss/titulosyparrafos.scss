@@ -35,6 +35,13 @@ h2 {
   text-align: center;
   color: #1a1818;
 }
+h3{
+  font-family: 'Dancing Script', cursive;
+  font-weight: 10px ;
+  font-size: 50px;
+  text-align: center;
+
+}
 
 .navarSubtitulo {
   animation-name: animate__swing;
@@ -96,3 +103,10 @@ h3 {
   padding: 2px;
   background-color: rgb(96, 99, 99);
 }
+.box {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  
+}
+

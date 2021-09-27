@@ -21,11 +21,6 @@
   background-color:$color3;
 }
 
-.box {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-}
 
 .columna1 {
   height: 1000px;
@@ -75,5 +70,44 @@
   text-decoration: none;
   padding: 40px;
   margin: 10px;
+}
+.piedepagina{
+margin: 15px;
+padding: 160px;
+background-color: rgb(212, 205, 205);
+
+
+
+}
+.piedep{
+  display: flex;
+  flex-direction: column;
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: none;
+  margin: 3px;
+  flex-direction: left;
+ 
+}
+.piedep2{
+  display: flex;
+  flex-direction: column;
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: none;
+  flex-direction:right;
+  margin: 3px;
+
+}
+.a{
+  text-decoration: none;
+  color: black;
+
+}
+.RedesSociales{
+  display: flex;
+  flex-direction: row;
+  padding: 20px;
+  margin: 30px;
+
+
 }
 
