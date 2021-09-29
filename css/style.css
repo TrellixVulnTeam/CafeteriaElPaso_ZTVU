@@ -94,6 +94,10 @@ h3 {
   background-color: #755f5f;
   color: white; }
 
+.imagenlogo {
+  width: 60px;
+  height: 60px; }
+
 /* renglones de pagina */
 .prueba {
   margin: 50;
@@ -171,3 +175,11 @@ h3 {
   flex-direction: row;
   padding: 20px;
   margin: 30px; }
+
+.cont_red {
+  text-decoration: none;
+  display: flex;
+  flex-direction: row 1,1,1;
+  font-family: 'Courier New', Courier, monospace;
+  color: black;
+  text-anchor: start; }

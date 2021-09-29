@@ -11,7 +11,12 @@
   background-color:$color1;
   color: $color2;
 }
+.imagenlogo{
 
+
+width: 60px;
+height: 60px;
+}
 
 /* renglones de pagina */
 .prueba {
@@ -23,20 +28,20 @@
 
 
 .columna1 {
-  height: 1000px;
+  height: $ancho;
   padding: 0px;
   margin: 50px;
   
 }
 
 .columna2 {
-  height: 1000px;
+  height: $ancho;
   padding: 0px;
   margin: 50px;
 }
 
 .columna3 {
-  height: 1000px;
+  height: $ancho;
   padding: 0px;
   margin: 50px;
 }
@@ -109,5 +114,13 @@ background-color: rgb(212, 205, 205);
   margin: 30px;
 
 
+}
+.cont_red{
+  text-decoration: none;
+  display: flex;
+  flex-direction:row 1,1,1;
+  font-family: 'Courier New', Courier, monospace;
+  color: black;
+  text-anchor: start;
 }
 
