@@ -11,6 +11,8 @@ body{
   background-image: url(../imagenes/fondo.jpg);
   background-size: cover;
 }
+
+
 //barra de navegacion
 .barra1 a:hover{
   background-color:$color1;
@@ -21,6 +23,15 @@ body{
 
 width: 60px;
 height: 60px;
+}
+
+//pagina de index 
+/* pagina de index */
+//article 
+.box__a {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between; 
 }
 
 /* renglones de pagina */
@@ -66,9 +77,11 @@ height: 60px;
   display: flex;
   font-family: 'Raleway', sans-serif;
   color: rgb(126, 126, 126);
+  width: 100%;
+
 
 }
-.caja{
+.cajas{
   display: flex;
   justify-content: center;
 }

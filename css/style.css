@@ -102,6 +102,12 @@ body {
   width: 60px;
   height: 60px; }
 
+/* pagina de index */
+.box__a {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between; }
+
 /* renglones de pagina */
 .prueba {
   margin: 50;
@@ -135,9 +141,10 @@ body {
 .contenedor__p {
   display: flex;
   font-family: 'Raleway', sans-serif;
-  color: #7e7e7e; }
+  color: #7e7e7e;
+  width: 100%; }
 
-.caja {
+.cajas {
   display: flex;
   justify-content: center; }
 
