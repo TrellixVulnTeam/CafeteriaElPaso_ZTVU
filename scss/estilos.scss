@@ -6,11 +6,19 @@
 
 
 //body
+/* body */
+
 
 body{
   background-image: url(../imagenes/fondo.jpg);
   background-size: cover;
+  width: 100%;
+  max-width: 1400px;
+  padding: auto;
+  border: 3px;
+  margin: 100px;
 }
+
 
 
 //barra de navegacion
@@ -19,11 +27,10 @@ body{
   color: $color2;
 }
 .imagenlogo{
-
-
 width: 60px;
 height: 60px;
 }
+
 
 //pagina de index 
 /* pagina de index */
@@ -32,22 +39,16 @@ height: 60px;
   display: flex;
   flex-direction: row;
   justify-content: space-between; 
+  width: 70%;
+  height: 500px;
+  margin: 10px;
+  padding: 25px;
 }
-
-/* renglones de pagina */
-.prueba {
-  margin: 50;
-  padding: 0;
-  height: 3px;
-  background-color:$color3;
-}
-
-
 .columna1 {
   height: $ancho;
   padding: 0px;
   margin: 50px;
-  
+ 
 }
 
 .columna2 {
@@ -61,6 +62,23 @@ height: 60px;
   padding: 0px;
   margin: 50px;
 }
+.columna3 a:hover{
+  background-color: rgb(134, 127, 127);
+}
+
+
+/* renglones de pagina */
+.prueba {
+  margin: 50;
+  padding: 0;
+  height: 3px;
+  background-color:$color3;
+  display: flex;
+  flex:auto
+}
+
+
+
 
 .contenedor {
   margin-left: auto;
@@ -68,9 +86,20 @@ height: 60px;
   display: flex;
   flex-direction:row; 
   padding: 20px;
+  margin: 10px;
   justify-content: center;
 }
+.caja__t{
+  display:flex;
+flex-direction: row;
+justify-content: center;
+  width: 600px;
+  height: 350px;
+  margin: 10px;
+  padding: 25px;
+  width: 100%;
 
+}
 
 
 .contenedor__p {
@@ -249,6 +278,7 @@ footer{
   background:$Twitter;
 }
 .redS ul li .WhatSapp:hover{
+
   background:$whatsapp;
 }
 
